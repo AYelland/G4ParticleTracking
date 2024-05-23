@@ -1,0 +1,17 @@
+# Macro file for Run Parameters in Batch Mode
+
+##################################################
+## Change the default number of workers (in multi-threading mode) 
+
+/run/numberOfThreads 30
+
+##################################################
+## Initialize the RunManager (if not done in "main.cc")
+
+/run/initialize
+
+##################################################
+## Set the Run Parameters below
+
+/tracking/verbose 0
+/run/beamOn 1000
